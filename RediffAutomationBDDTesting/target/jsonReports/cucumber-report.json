@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Rediff forgot password validation",
+        "description": "",
+        "id": "rediff-forgot-password;rediff-forgot-password-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70718427662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "chromedriver is initialized",
+            "match": {
+              "location": "StepDefination.chromedriver_is_initialized()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37785416975,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 666512125,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Sign In link",
+            "match": {
+              "location": "StepDefination.user_clicks_on_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27247476622,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the Forgot Password link",
+            "match": {
+              "location": "StepDefination.user_clicks_on_the_forgot_password_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 726900052,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be allowed to enter the email id as \"email@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email@gmail.com",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefination.user_should_be_allowed_to_enter_the_email_id_as_something(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1356637353,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to click the next button",
+            "match": {
+              "location": "StepDefination.user_should_be_able_to_click_the_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1425016198,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Rediff forgot password",
+    "description": "",
+    "id": "rediff-forgot-password",
+    "keyword": "Feature",
+    "uri": "ForgotPassword.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the homepage and check if the field is displayed",
+        "description": "",
+        "id": "rediffmail-home-page-validation;open-the-homepage-and-check-if-the-field-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8368881646,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "chromedriver is initialized",
+            "match": {
+              "location": "StepDefination.chromedriver_is_initialized()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45378362495,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32207310,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "get the title of the page",
+            "match": {
+              "location": "StepDefination.get_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1309726182,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the search text box is displayed",
+            "match": {
+              "location": "StepDefination.verify_the_search_text_box_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1529568808,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "RediffMail home page validation",
+    "description": "",
+    "id": "rediffmail-home-page-validation",
+    "keyword": "Feature",
+    "uri": "HomePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Testing the negative scenario",
+        "description": "",
+        "id": "rediff-login-validation;testing-the-negative-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7506543379,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "chromedriver is initialized",
+            "match": {
+              "location": "StepDefination.chromedriver_is_initialized()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30085325410,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "StepDefination.user_is_on_the_landing_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6587737233,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on Sign In link",
+            "match": {
+              "location": "StepDefination.user_clicks_on_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7665157400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters nandi@gmail.com and Toni@123 and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nandi@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Toni@123",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefination.user_enters_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422498621,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user login is not successful",
+            "match": {
+              "location": "StepDefination.user_login_is_not_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1298740676,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "StepDefination.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Rediff Login Validation",
+    "description": "",
+    "id": "rediff-login-validation",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
